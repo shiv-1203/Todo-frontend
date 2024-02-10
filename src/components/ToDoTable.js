@@ -48,7 +48,7 @@ const ToDoTable = () => {
     };
 
     const handleDeleteTodo = (index) => {
-        fetch(`https://todo-backend-41in.onrender.com/${index}`, { method: 'DELETE' })
+        fetch(`https://todo-backend-41in.onrender.com/deleteTodo/${index}`, { method: 'DELETE' })
             .then((res) => res.json())
             .then((data) => dispatch({ type: 'DELETE_TODO', payload: index }))
             .catch((error) => console.error('Error deleting todo:', error));
