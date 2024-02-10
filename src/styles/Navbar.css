@@ -1,0 +1,51 @@
+.Navbar{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+.logo{
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.logoText{
+    margin-left: 10px;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 8px;
+}
+.addInput{
+    width: 300px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.searchBar{
+    margin-top: 10px;
+    height: 15px;
+    border-radius: 5px;
+    margin-left: auto;
+    padding: 5px;
+    margin-right: 10px;
+    justify-content: flex-end;
+}
+.buttonSearch{
+    background-color: wheat;
+    color: black;
+    height: 15px;
+    padding: 5px 10px 10px 10px;
+    border: 1px solid black;
+    max-width: fit-content;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+@media (max-width: 300px){
+    .addInput{
+        width: fit-content;
+        padding: 5px;
+    }
+}

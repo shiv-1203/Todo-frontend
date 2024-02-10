@@ -1,0 +1,110 @@
+.table{
+    background-color: white;
+    width: 1000px;
+    text-align: center;
+    box-shadow: 10px 10px 20px #888888;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    font-size: 17px;
+    margin-top: 15px;
+    text-align: center;
+}
+.line{
+    flex: 1;
+    border-bottom: 1px solid gray;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.centeredText{
+    margin: 10px 0;
+}
+.headEntries{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-collapse: collapse;
+    border-bottom: 1px solid black;
+    font-size: 16px;
+}
+.bodyEntries{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-collapse: collapse;
+    border-bottom: 1px solid gray;
+    color: black;
+}
+.bodyEntriesDesc{
+    padding-top: 7px;
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 7px;
+    border-collapse: collapse;
+    border-bottom: 1px solid gray;
+    color: black;
+}
+.button{
+    display: flex;
+    background-color: black;
+    max-width: fit-content;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 3px 7px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headAddButton{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-collapse: collapse;
+    border-bottom: 1px solid black;
+    font-size: 12px;
+    width: 10px;
+}
+
+.buttonAdd{
+    margin-top: 20px;
+    display: flex;
+    background-color: black;
+    max-width: fit-content;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 3px 7px;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swalAdd{
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+@media (max-width: 1000px){
+    .table{
+        max-width: 600px;
+    }
+}
+@media (max-width: 600px){
+    .table{
+        width: 100vw;
+    }
+    .container{
+        font-size: 14px;
+    }
+    .headEntries{
+        font-size: 12px;
+    }
+}
