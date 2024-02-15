@@ -1,4 +1,3 @@
-```markdown
 # ✨ TodoList App
 
 Welcome to the TodoList App 📝 – your ultimate task management solution! Built with React ⚛️ and Node.js 🚀, this application empowers you to organize your tasks effortlessly. Redux 🔄 ensures smooth state management, while Cors 🌐 and gh-pages 📦 simplify hosting.
