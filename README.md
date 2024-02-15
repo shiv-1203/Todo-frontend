@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+```markdown
+# ✨ TodoList App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the TodoList App 📝 – your ultimate task management solution! Built with React ⚛️ and Node.js 🚀, this application empowers you to organize your tasks effortlessly. Redux 🔄 ensures smooth state management, while Cors 🌐 and gh-pages 📦 simplify hosting.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+- Add ✅, remove 🗑️, and get 🔄 tasks
+- Mark tasks as completed by deleting it✔️
+- Filter tasks based on id 📌
 
-### `npm start`
+## 🛠️ Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React ⚛️
+- Redux 🔄
+- Node.js 🚀
+- Express.js 🌐
+- Cors 🧊
+- gh-pages 📦
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📝 Project Description
 
-### `npm test`
+TodoList App is a modern task management application designed to streamline your workflow. With its intuitive interface and powerful features, staying organized has never been easier. Whether you're managing personal tasks or collaborating with a team, TodoList App has got you covered. The below image shows the todo-app built.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![image](https://github.com/shiv-1203/Todo-frontend/assets/105982373/cab0aab8-0e29-4a24-978d-09a8f88da711)
 
-### `npm run build`
+## ⚙️ Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js installed on your machine
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Steps
 
-### `npm run eject`
+1. Clone the repository:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+git clone https://github.com/shiv-1203/Todo-frontend.git
+```
+```bash
+git clone https://github.com/shiv-1203/Todo-backend.git
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Navigate to the project directory and Install dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+cd Todo-backend
+npm install
+```
+```bash
+cd Todo-frontend
+npm install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Start the backend server:
 
-## Learn More
+```bash
+cd Todo-backend
+node todolistbackend.js
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Access the frontend part of the application at `Todo-frontend` folder.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🚀 Deployment
 
-### Code Splitting
+To deploy the frontend of the application to GitHub Pages:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Modify the `homepage` field in the `Todo-frontend/package.json` file to your GitHub Pages URL:
 
-### Analyzing the Bundle Size
+```json
+"homepage": "https://your-username.github.io/todo-list"
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+2. Build the React app:
 
-### Making a Progressive Web App
+```bash
+cd Todo-frontend
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+3. Deploy to GitHub Pages:
 
-### Advanced Configuration
+```bash
+npm run deploy
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This will create a `gh-pages` branch in your repository with the necessary files for hosting.
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🎉 Suggestions
+Please feel free to give any suggestions! We're always looking to improve our app and your feedback is invaluable. Whether it's a new feature idea, a bug report, or just some general feedback, we'd love to hear from you! Let's make TodoList App even better together! 🚀🌟
